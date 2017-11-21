@@ -17,7 +17,7 @@ System::~System() {
     //
 }
 
-Domain* const System::getDomain() {
+const Domain* System::getDomain() {
     return this->dom;
 }
 

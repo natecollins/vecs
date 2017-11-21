@@ -8,7 +8,7 @@ namespace vecs
 {
 
 ComponentBase::ComponentBase()
-  : parent_ent (nullptr), spinlock (ATOMIC_FLAG_INIT), state (STATE_INITIALIZING) {
+  : parent_ent (nullptr), spinlock ATOMIC_FLAG_INIT, state (STATE_INITIALIZING) {
     state = STATE_AVAILABLE;
 }
 
@@ -34,7 +34,7 @@ void ComponentBase::setParentEntity(Entity* parent) {
     this->parent_ent = parent;
 }
 
-Entity* const ComponentBase::getParentEntity() const {
+const Entity* ComponentBase::getParentEntity() const {
     return parent_ent;
 }
 

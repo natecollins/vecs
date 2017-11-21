@@ -50,7 +50,7 @@ public:
     virtual ComponentBase* clone() = 0;
 
     void setParentEntity(Entity* parent);
-    Entity* const getParentEntity() const;
+    const Entity* getParentEntity() const;
 
     virtual COMP_ID getId() const = 0;
     virtual COMP_TYPE_ID getType() const;

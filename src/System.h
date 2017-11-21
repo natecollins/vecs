@@ -42,7 +42,7 @@ protected:
     // This is our current list of valid (matching the type set) entities
     std::unordered_map<ENT_ID, Entity*> entities;
 
-    Domain* const getDomain();
+    const Domain* getDomain();
 
 public:
     System(SystemThreadState thread_state=NON_THREAD, Domain* dom=nullptr);

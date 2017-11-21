@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <chrono>
-#include "vecs.h"
+#include "src/vecs.h"
 
 using namespace vecs;
 using namespace std::chrono;

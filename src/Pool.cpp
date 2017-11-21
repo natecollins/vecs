@@ -6,7 +6,7 @@ namespace vecs
 {
 
 Pool::Pool(std::size_t block_size, std::size_t chunk_size)
-  : spinlock (ATOMIC_FLAG_INIT), block_size (((block_size + 15) / 16) * 16), chunk_size (((chunk_size + 15) / 16) * 16) {
+  : spinlock ATOMIC_FLAG_INIT, block_size (((block_size + 15) / 16) * 16), chunk_size (((chunk_size + 15) / 16) * 16) {
     // Align block size to 16 bytes, and make sure it divides evenly into the chunks
     // Reserve and set the starting top
     reserve(1);

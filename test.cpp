@@ -4,7 +4,7 @@
 #include <cassert>
 #include <cstdint>
 #include <iostream>
-#include "vecs.h"
+#include "src/vecs.h"
 
 using namespace vecs;
 
