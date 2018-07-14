@@ -56,7 +56,7 @@ public:
     static EVNT_TYPE_ID getNextEventTypeId();
 
     Domain();
-    virtual ~Domain();
+    virtual ~Domain() {};
     Domain* getSelf();
 
     void setDomainTime(int64_t dtime_ms);

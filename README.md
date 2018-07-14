@@ -2,7 +2,9 @@ VECS ENTITY COMPONENT SYSTEM
 ==================================
 
 This is an entity-component system I wrote to learn more about how an ECS is put together and operates.
-VECS works, but is poorly documented and not optimized (as it makes use of inefficient STL containers).  
+VECS works, but is poorly documented and not optimized (as it makes use of inefficient STL containers).
+One day, far into the future, I hope to revisit this and make it into something usable. Until then,
+proceed at your own risk.  
 
 Notable features:  
 - Each System may optionally operate in its own thread.

@@ -14,7 +14,7 @@ private:
 
 public:
     EventEmitter(Domain* dom);
-    virtual ~EventEmitter();
+    virtual ~EventEmitter() {};
 
     Domain* getEmitDomain();
 

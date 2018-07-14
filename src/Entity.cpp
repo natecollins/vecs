@@ -18,10 +18,6 @@ Entity::Entity(Domain* m, ENT_ID eid)
     //
 }
 
-Entity::~Entity() {
-    //
-}
-
 std::string Entity::getComponentNames() const {
     std::string names = "";
     for (auto cop : this->components) {

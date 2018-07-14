@@ -28,7 +28,7 @@ public:
     // ctors/dtor
     Entity(Domain* m);
     Entity(Domain* m, ENT_ID eid);
-    virtual ~Entity();
+    virtual ~Entity() {};
 
     // Get all the components class names as a comma concatinated string
     std::string getComponentNames() const;

@@ -42,10 +42,6 @@ Domain::Domain()
     epool = new Pool(sizeof(Entity));
 }
 
-Domain::~Domain() {
-    //
-}
-
 Domain* Domain::getSelf() {
     return this;
 }

@@ -4,14 +4,6 @@
 namespace vecs
 {
 
-ComponentTypeSet::ComponentTypeSet() {
-    //
-}
-
-ComponentTypeSet::~ComponentTypeSet() {
-    //
-}
-
 uint32_t ComponentTypeSet::size() const {
     return this->type_ids.size();
 }

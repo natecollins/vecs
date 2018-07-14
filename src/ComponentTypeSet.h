@@ -12,8 +12,8 @@ private:
     std::vector<COMP_TYPE_ID> type_ids;
 
 public:
-    ComponentTypeSet();
-    virtual ~ComponentTypeSet();
+    ComponentTypeSet() {};
+    virtual ~ComponentTypeSet() {};
 
     uint32_t size() const;
 

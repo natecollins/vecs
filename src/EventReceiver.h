@@ -13,8 +13,8 @@ class EventReceiver {
 private:
 
 public:
-    EventReceiver();
-    virtual ~EventReceiver();
+    EventReceiver() {};
+    virtual ~EventReceiver() {};
 
     virtual void runEvent(EventBase* ev) = 0;
 
